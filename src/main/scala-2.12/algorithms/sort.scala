@@ -6,7 +6,7 @@ package algorithms
 object sort {
 
   def bubbleSort(inputList: List[Int]): List[Int] = {
-
+    @annotation.tailrec
     def bubble (listToBubble:List[Int], acc: List[Int]=Nil): List[Int]={
       listToBubble match {
         case Nil => acc.reverse
@@ -38,6 +38,7 @@ object sort {
       else y
     }
 
+    @annotation.tailrec
     def bubble (listToBubble:List[Int], acc: List[Int]=Nil): List[Int]={
       listToBubble match {
         case Nil => acc.reverse
@@ -46,6 +47,7 @@ object sort {
       }
     }
 
+    @annotation.tailrec
     def loop(listToSort: List[Int]): List[Int] = {
       listToSort match {
         case ls if ls == bubble(ls) => ls
