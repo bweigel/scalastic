@@ -1,8 +1,8 @@
 import FuProInScala.chapter_2._
+import algorithms.converter.binhexdec._
 import algorithms.fibonacci._
 import algorithms.getRnd
 import algorithms.profiling._
-import algorithms.converter.binhexdec._
 
 object main {
 
@@ -13,7 +13,7 @@ object main {
     println(isSorted(b, ordered))
 
 
-    println(binToDec("000111"))
+    println(binToInt("000111"))
     /*
     println(timeMe(100, bubbleSort(a)))
     println(timeMe(100, bubbleSort2(a)))
