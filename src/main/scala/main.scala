@@ -1,4 +1,4 @@
-import FuProInScala.chapter_2._
+import FuProInScala.chapter2.exercise_2._
 import algorithms.converter.binhexdec._
 import algorithms.fibonacci._
 import algorithms.getRnd
